@@ -37,9 +37,9 @@ Deletion is similar in feel to the insertion, but more complicated.
 [phishman3579 Implementation](https://github.com/phishman3579/java-algorithms-implementation/blob/master/src/com/jwetherell/algorithms/data_structures/RedBlackTree.java)
 
 ### Usage
-Java: java.util.TreeMap, java.util.TreeSet
-C++ STL: map, multimap, multiset
-Linux kernel: Completely Fair Scheduler
+Java: java.util.TreeMap, java.util.TreeSet  
+C++ STL: map, multimap, multiset  
+Linux kernel: Completely Fair Scheduler  
 
 ### References
 [GeeksforGeeks](https://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/)

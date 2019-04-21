@@ -83,5 +83,5 @@ class Solution {
 }
 
 ```
-Note:
+Note:  
 the recursive function return the parameter node, to recursively pass the return value up.
