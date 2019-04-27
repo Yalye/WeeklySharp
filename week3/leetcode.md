@@ -1,4 +1,6 @@
-### 
+
+### 814. Binary Tree Pruning
+
 Question:
 ```
 We are given the head node root of a binary tree, where additionally every node's value is either a 0 or a 1.

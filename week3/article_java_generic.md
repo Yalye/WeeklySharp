@@ -136,8 +136,8 @@ private <T> boolean contains(List<? extends Number> list, T obj)
 ```
 
 #### References
-[how-exactly-do-generics-work](https://stackoverflow.com/questions/27606449/how-exactly-do-generics-work)
-[java-type-erasure](https://www.baeldung.com/java-type-erasure)
+[how-exactly-do-generics-work](https://stackoverflow.com/questions/27606449/how-exactly-do-generics-work)  
+[java-type-erasure](https://www.baeldung.com/java-type-erasure)  
 
 
 
