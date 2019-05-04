@@ -6,7 +6,8 @@ What Makes a Better Programmer? read some classic books:
  * Refactoring
  * Design Patterns
  * The Mythical Man-month
- * The Psychology of Computer Programming
+ * The Psychology of Computer Programming  
+
 and my favourite **The art of computer programming**
 
 

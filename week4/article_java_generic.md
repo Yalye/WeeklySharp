@@ -47,11 +47,11 @@ not `public static Set union(Set s1, Set s2)`
  * If a parameterized type represents a T consumer, use `<? super T>`
  * Do not use bounded wildcard types as return types. 
 
-### Combine generics and varargs judiciously 
+#### Combine generics and varargs judiciously 
  * Mixing generics and varargs can violate type safety, it may cause `Heap pollution`
  * The `SafeVarargs` annotation should be used only when we are sure it's typesafe.
 
-### Consider typesafe heterogeneous containers
+#### Consider typesafe heterogeneous containers
 like `Map<Class<?>, Object> map`, we parameterize the key not the container then we will get heterogeneous container.
 
 #### References
