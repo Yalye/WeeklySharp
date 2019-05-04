@@ -1,6 +1,6 @@
 
 ### News
-[Nils Nilsson, pioneer in robotics and artificial intelligence, dies at 86](https://news.stanford.edu/2019/04/24/nils-nilsson-pioneer-robotics-artificial-intelligence-dies-86/)
+[pytorch 1.1 released](https://github.com/pytorch/pytorch/releases)
 
 
 ### Learn
