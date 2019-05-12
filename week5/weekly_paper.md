@@ -1,7 +1,12 @@
 
 ### News
-[pytorch 1.1 released](https://github.com/pytorch/pytorch/releases)
+[Google I/O 2019](https://events.google.com/io/) All In AI | Android Q | Google Assistant
+[Microsoft Build 2019](https://www.microsoft.com/en-us/build)
+[SQLFlow](https://sqlflow.org/sqlflow) Brings SQL and AI together
+[Geoffrey Hinton discusses how AI could inform our understanding of the brain](https://venturebeat.com/2019/05/09/geoffrey-hinton-discusses-how-ai-might-inform-our-understanding-of-the-brain/)
+[A Language Creators' Conversation: Guido van Rossum, James Gosling, Larry Wall & Anders Hejlsberg](https://www.youtube.com/watch?v=csL8DLXGNlU)
 
 ### Learn
-[What Makes a Better Programmer?](https://medium.com/better-programming/what-makes-a-better-programmer-89093be66cf4?source=linkShare-69dd2825c836-1556716356&_branch_match_id=506809057482849549)
-[The Rebellion Against China’s 996 Culture](https://onezero.medium.com/the-rebellion-against-chinas-996-culture-b5b21b6a92c0)
+[MNN](https://github.com/alibaba/MNN) MNN is a lightweight deep neural network inference engine.
+[AI Enabling Technologies](https://arxiv.org/pdf/1905.03592.pdf)
+
