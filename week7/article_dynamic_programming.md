@@ -1,5 +1,5 @@
 
-[Dynamic Progamming is just a fancy way to say 'remembering stuff to save time later'](https://www.quora.com/How-should-I-explain-dynamic-programming-to-a-4-year-old/answer/Jonathan-Paulson) is an excellent explantion of **Dynamic Programming**. The `remembered stuffs ` is often known as subproblem results, and **Dynamic Programming** is problem-solving method by combining the solutions to subproblems. Dynamic Programming is often shorted as **DP**.
+[Dynamic Progamming is just a fancy way to say 'remembering stuff to save time later'](https://www.quora.com/How-should-I-explain-dynamic-programming-to-a-4-year-old/answer/Jonathan-Paulson) is an excellent explantion of **Dynamic Programming**. The `remembered stuffs ` is often known as subproblem results, and **Dynamic Programming** is a problem-solving method which combines the solutions of subproblems. Dynamic Programming is often shorted as **DP**.
 
 To be more specific. We use DP to break a problem into simpler sub-problems recursively. Firstly, we need to confirm whether DP is applicable for the problem, there're two key checkpoints: does the problem have **optimal substructure** and are the problem's sub-problems **overlapping**. Secondly, we solve the problem by **top-down recursion** or **bottom-up approach**. 
 
