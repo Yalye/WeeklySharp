@@ -70,7 +70,7 @@ plt.show()
 print(perceptron.weights)
 ```
 
-![](./resources/a.png)
+![](./resources/b.png)
 
 ### Perceptron vs SVM
 For linear seperable input: 
