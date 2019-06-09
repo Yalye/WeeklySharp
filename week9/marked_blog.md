@@ -1,6 +1,3 @@
 
-### Python Interview Questions
-https://www.edureka.co/blog/interview-questions/python-interview-questions/
-
-### when to use design pattern?
-https://stackoverflow.com/questions/85272/how-do-you-know-when-to-use-design-patterns?rq=1
+### https://github.com/jlevy/the-art-of-command-line
+command lines should known by an excellent software engineer 

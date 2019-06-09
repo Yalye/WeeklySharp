@@ -1,5 +1,13 @@
-### persistent connections
-In Http/1.0, the default connection is not persistent connection, while starting from Http/1.1, keep-alive is the default option.
-Actually, the non-persistent and persistent connections of Http are esseantially different connections of the TCP layer.
+### read excel
+```
+dfs = pd.read_excel('data.xlsx', 'sheet1')
+```
 
-However, a keep-alive connection won't last forever. most server kill inactive connections to prevent an immense amount of open connections. The response of a keep-alive may contains a timeout to inform the client how long the server will keep the connection open.
+### write excel
+```
+workbook = xlsxwriter.Workbook('data.xlsx')
+worksheet = workbook.add_worksheet('sheet1')
+row = 0
+ret = worksheet.write_row(row, 0, ['a', 'b'])
+workbook.close()
+```
