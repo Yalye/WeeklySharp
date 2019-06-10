@@ -1,8 +1,12 @@
 
-### News
-Computer Science Weekly — 7
-### Learn
-[Basic Quantum Research Will Transform Science and Industry](https://medium.com/@LosAlamosNatLab/basic-quantum-research-will-transform-science-and-industry-2835ded9d98a)     
-[The Dark Forest Theory of the Internet](https://onezero.medium.com/the-dark-forest-theory-of-the-internet-7dc3e68a7cb1)  
-[How is Moore’s Law becoming irrelevant in the age of Quantum Computing?](https://medium.com/datadriveninvestor/how-is-moores-law-becoming-irrelevant-in-the-age-of-quantum-computing-5beb39fafc01)
+Computer Science Weekly — 9
 
+### News
+[Google Announces TensorFlow 2.0 Beta](https://medium.com/syncedreview/google-announces-tensorflow-2-0-beta-f2d732525955)
+[DeepMind & Google Brain Open Source HLE Framework for ‘Hanabi’](https://medium.com/syncedreview/deepmind-google-brain-open-source-hle-framework-for-hanabi-aafb866d483d)
+
+### Views
+[Why Microsoft is Acquiring GitHub](https://medium.com/futuresin/why-microsoft-is-acquiring-github-1fc859cb29a)
+[It’s a Huge Mistake to Memorize Your Passwords](https://onezero.medium.com/its-a-huge-mistake-to-memorize-your-passwords-2bdc1fdd64c2)
+
+### Computers
