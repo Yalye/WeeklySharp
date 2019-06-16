@@ -1,6 +1,4 @@
 
-### Python Interview Questions
-https://www.edureka.co/blog/interview-questions/python-interview-questions/
+### The ls command is not working for a directory with a huge number of files
+https://unix.stackexchange.com/questions/120077/the-ls-command-is-not-working-for-a-directory-with-a-huge-number-of-files
 
-### when to use design pattern?
-https://stackoverflow.com/questions/85272/how-do-you-know-when-to-use-design-patterns?rq=1

@@ -1,54 +1,40 @@
 
-### 894. All Possible Full Binary Trees
+### 20. Valid Parentheses
 
 Question:
 ```
+Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 
+An input string is valid if:
+
+Open brackets must be closed by the same type of brackets.
+Open brackets must be closed in the correct order.
+Note that an empty string is also considered valid.
 ```
 
 Solution:
 ```
-Map<Integer, List<TreeNode>> map = new HashMap<>();
-
-  private List<TreeNode> possibleFBT(int N){
-    List<TreeNode> list = new ArrayList<>();
-    if (N == 1)
-    {
-      TreeNode root = new TreeNode(0);
-      list.add(root);
-      return list;
-    }
-    for (int i = 1; i < N; i +=2 )
-    {
-      List<TreeNode> leftList = map.get(i);
-
-
-      List<TreeNode> rightList = map.get(N - 1 -i);
-
-      for (TreeNode left: leftList){
-        for (TreeNode right: rightList){
-          TreeNode root = new TreeNode(0);
-          root.left = left;
-          root.right = right;
-          list.add(root);
+public boolean isValid(String s) {
+        HashMap<Character, Character> mapping = new HashMap<>();
+        mapping.put('}', '{');
+        mapping.put(')', '(');
+        mapping.put(']', '[');
+        Stack<Character> stack = new Stack<>();
+        for (int i = 0; i < s.length(); i++){
+            Character c = s.charAt(i);
+            if (mapping.containsKey(c)){
+                if (stack.isEmpty()){
+                    return false;
+                }
+                Character co = stack.pop();
+                if (!co.equals(mapping.get(c))){
+                    return false;
+                }
+            } else{
+                stack.add(c);
+            }
         }
-      }
+        return stack.isEmpty();
     }
-    return list;
-  }
-
-
-  public List<TreeNode> allPossibleFBT(int N) {
-    List<TreeNode> list = new ArrayList<>();
-    if (N % 2 == 0)
-      return list;
-    TreeNode root = new TreeNode(0);
-    for (int i = 1; i < N + 2; i+=2)
-    {
-      map.put(i, possibleFBT(i));
-    }
-
-    return map.get(N);
-  }
 ```
 Note:  
